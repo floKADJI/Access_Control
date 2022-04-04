@@ -1,9 +1,16 @@
 #include <Arduino.h>
 
-void setup() {
-  // put your setup code here, to run once:
+
+
+#include "SPI.h"
+#include "TFT_eSPI.h"
+
+TFT_eSPI tft = TFT_eSPI();
+
+void setup(){
+
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void loop(){
+
 }
